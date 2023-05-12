@@ -1,0 +1,9 @@
+fastapi
+nest-asyncio
+pyngrok
+uvicorn
+pyspark
+python-multipart
+starlette
+pandas
+jinja2

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5xDl/gplGkU7_3g8Gc7Xl1JVpzl5Ure+v+U8J3iN" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mb-4">Prediction Results</h1>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Predicted Fetal Health: {{ prediction_result }}</h5>
+            <!-- Add your image here -->
+            <img src="your-image-url" alt="Fetal Health Image" class="img-fluid mt-4">
+            <a href="/" class="btn btn-primary mt-4">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>

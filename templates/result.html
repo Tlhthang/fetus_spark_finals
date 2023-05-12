@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetal Health Prediction - Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f7f7f7;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #4a4a4a;
+        }
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4a4a4a;
+            margin-bottom: 30px;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #5ccb3e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fetal Health Prediction - Results</h1>
+    <p>{{ status }}</p>
+    <p>Model accuracy: {{ accuracy }}</p>
+    <button onclick="window.location.href='/'">Back to Main Page</button>
+</body>
+</html>
